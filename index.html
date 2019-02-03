@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"></meta>
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    ></meta>
+
+    <meta
+        http-equiv="X-UA-Compatible"
+        content="ie=edge"
+    ></meta>
+
+    <title>Rock Paper Scissor Spock</title>
+
+    <script src="code.js"></script>
+
+    <link
+        rel="stylesheet"
+        href="style.css"
+    ></link>
+
+    <title>Document</title>
+</head>
+
+<body style="text-align: center">
+    <h1 style="text-align: center">Choose your weapon:</h1>
+
+    <img src="RPSSL.gif" id="directions" onclick="hideDirections()" alt="">
+
+    <button
+        onclick="choose(0)"
+    >Rock</button>
+
+    <button
+        onclick="choose(1)"
+    >Paper</button>
+
+    <button
+        onclick="choose(2)"
+    >Scissors</button>
+
+    <button 
+        id="plusButton"
+        onclick="expand()"
+    >+</button>
+
+    <button
+        id="spockButton"
+        onclick="choose(3)"
+    >Spock</button>
+
+    <button
+        id="lizardButton"
+        onclick="choose(4)"
+    >Lizard</button>
+    
+    <button
+        id="helpButton"
+        onclick="showDirections()"
+    >????</button>
+
+
+    <br>
+
+    <p id="human">
+        <br>
+    </p>
+
+    <p id="computer">
+        <br>
+    </p>
+
+    <p id="winner">
+        <br>
+    </p>
+
+    <p id="score">Score:</p>
+</body>
+</html>

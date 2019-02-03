@@ -1,0 +1,14 @@
+button {
+    display: inline-block;
+}
+
+#spockButton, #lizardButton, #helpButton{
+    display: none;
+}
+
+#directions {
+    position: absolute;
+    top: 100px;
+    margin: auto 0;
+    display: none;
+}
