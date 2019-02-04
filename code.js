@@ -20,7 +20,7 @@ var winnerTable = [
 
 var descriptions = [
     "rock", "smashes", "scissors", "cuts", "paper",
-    "disproves", "Spock", "breaks", "scissors", "beheads", 
+    "disproves", "Spock", "breaks", "scissors", "slices", 
     "lizard", "poisons", "Spock", "vaporizes", "rock", 
     "crushes", "lizard", "eats", "paper", "covers", "rock"];
 
