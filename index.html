@@ -25,58 +25,76 @@
     <title>Document</title>
 </head>
 
-<body style="text-align: center">
-    <h1 style="text-align: center">Choose your weapon:</h1>
+<body style="text-align: left">
+    <div id="gamePanel">
+        <h1 style="text-align: center">Choose your weapon:</h1>
 
-    <img src="RPSSL.gif" id="directions" onclick="hideDirections()" alt="">
+        <button
+            id="rockButton"
+            onclick="choose(0)"
+        >Rock</button>
 
-    <button
-        onclick="choose(0)"
-    >Rock</button>
+        <button
+            id="paperButton"
+            onclick="choose(1)"
+        >Paper</button>
 
-    <button
-        onclick="choose(1)"
-    >Paper</button>
+        <button
+            id="scissorsButton"
+            onclick="choose(2)"
+        >Scissors</button>
 
-    <button
-        onclick="choose(2)"
-    >Scissors</button>
+        <button 
+            id="plusButton"
+            onclick="expand()"
+        >+</button>
 
-    <button 
-        id="plusButton"
-        onclick="expand()"
-    >+</button>
+        <button
+            id="spockButton"
+            onclick="choose(3)"
+        >Spock</button>
 
-    <button
-        id="spockButton"
-        onclick="choose(3)"
-    >Spock</button>
+        <button
+            id="lizardButton"
+            onclick="choose(4)"
+        >Lizard</button>
+        
+        <button
+            id="helpButton"
+            onclick="showDirections()"
+        >????</button>
 
-    <button
-        id="lizardButton"
-        onclick="choose(4)"
-    >Lizard</button>
-    
-    <button
-        id="helpButton"
-        onclick="showDirections()"
-    >????</button>
-
-
-    <br>
-
-    <p id="human">
         <br>
-    </p>
 
-    <p id="computer">
-        <br>
-    </p>
+        <p id="human">
+            <br>
+            <hr>
+        </p>
 
-    <p id="winner">
-        <br>
-    </p>
+        <p id="computer">
+            <br>
+            <hr>
+        </p>
 
-    <p id="score">Score:</p>
+        <p id="verbs">
+            <br>
+            <hr>
+        </p>
+
+        <p id="winner">
+            <br>
+            <hr>
+        </p>
+
+        <p id="score">
+            tie: 0<br>
+            human: 0<br>
+            computer: 0<br>
+            <hr>
+        </p>
+
+        <img src="RPSSL.gif" id="directions" onclick="hideDirections()" alt="">
+    </div>
+
 </body>
 </html>
